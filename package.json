@@ -6,7 +6,7 @@
   "files": [ "dist", "README.md" ],
   "repository": {
     "type": "git",
-    "url": "URL_OF_YOUR_REPOSITORY"
+    "url": "https://github.com/Nikhild12/new-package"
   },
   "dependencies": {
     "@babel/cli": "^7.16.0",
