@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 export default function Button({ label, backgroundColor, onClick }) {
+    console.log({ label, backgroundColor, onClick });
   return (
     <button onClick={onClick}
     style={backgroundColor && { backgroundColor }}>
