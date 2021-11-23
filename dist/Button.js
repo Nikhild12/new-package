@@ -15,6 +15,11 @@ function Button(_ref) {
   var label = _ref.label,
       backgroundColor = _ref.backgroundColor,
       onClick = _ref.onClick;
+  console.log({
+    label: label,
+    backgroundColor: backgroundColor,
+    onClick: onClick
+  });
   return /*#__PURE__*/_react.default.createElement("button", {
     onClick: onClick,
     style: backgroundColor && {
