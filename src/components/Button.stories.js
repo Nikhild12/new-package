@@ -14,11 +14,13 @@ export default {
 const Template = (args) => <Button {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
+  type:"primary",
   label: 'My Button',
 }
 
 export const Secondary = Template.bind({});
 Secondary.args = {
+    type:"secondary",
   label: 'My Button',
   backgroundColor:"Red"
 }
